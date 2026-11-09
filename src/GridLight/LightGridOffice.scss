@@ -1,0 +1,20 @@
+.boxes {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 4px;
+  margin: 40px;
+
+
+}
+
+.box {
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.red {
+  background-color: pink;
+}
